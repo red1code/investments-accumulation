@@ -16,12 +16,10 @@ investmentApp(100, 15, 10)
 - `10` is the years of investment
 
 ### Outputs:
-`
 - Initial capital: 100
 - Percentage: 15%
 - Profit after 10 years: 52.77
 - Capital after 10 years: 404.56
-`
 
 
 # PS:
