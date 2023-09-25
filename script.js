@@ -1,5 +1,5 @@
-console.log(investmentApp(50, 15));
-console.log(investmentApp(50, 15, 10));
+console.log(investmentApp(100, 15));
+console.log(investmentApp(100, 15, 10));
 
 function investmentApp(capital, percentage, years = 1) {
   if (!capital || capital < 1 || typeof capital !== 'number')
@@ -33,9 +33,9 @@ function calculateInvestment(initCapital, percentage, years) {
 }
 
 function getFinalMsg(initCapital, years, percentage, finalProfit, finalCapital) {
-  return '- Initial capital: ' + initCapital + ' m'
+  return '- Initial capital: ' + initCapital
     + '\n- Percentage: ' + percentage + '%'
-    + '\n- Profit after ' + years + ' years: ' + finalProfit + ' m'
-    + '\n- Capital after ' + years + ' years: ' + finalCapital + ' m'
+    + '\n- Profit after ' + years + ' years: ' + finalProfit
+    + '\n- Capital after ' + years + ' years: ' + finalCapital
     + '\n'
 }
